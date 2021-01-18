@@ -9,7 +9,7 @@ let currentUVI = document.getElementById("current-uvi");
 let searchCard = document.getElementById("search-card");
 let forecast = document.getElementById("forecast");
 
-// Check for localstorage
+// Check for local storage
 if (localStorage.getItem('city')===null){
     searchedCities = [];
 } else {
@@ -56,7 +56,7 @@ let fetchWeather = function(city){
                 })  
             })
         }else{
-            alert("Did not recongize input. Please make sure you enter a city.");
+            alert("Did not recognize input. Please make sure you enter a city.");
         }
     }) 
 }
@@ -160,7 +160,7 @@ let storeCitySearch = function(city){
        
     }
 
-    // stores city into localstorage
+    // stores city into local storage
     localStorage.setItem("city", JSON.stringify(searchedCities));
 }
 
@@ -180,7 +180,6 @@ let citySearch = function(){
     let city = document.getElementById("city-input").value.trim().toLowerCase();
 
     if(city){
-        debugger;
         fetchWeather(city);
         storeCitySearch(city);
         city.innerHTML = "";
