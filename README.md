@@ -13,6 +13,6 @@
  
 ### Screenshot
 
-![Screenshot of Coding Quiz Homepage](assets/images/weather-dashboard.png)
+![Screenshot of Coding Quiz Homepage](images/weather-dashboard.png)
 
 ---
