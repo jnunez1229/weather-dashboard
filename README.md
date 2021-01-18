@@ -13,6 +13,6 @@
  
 ### Screenshot
 
-![Screenshot of Coding Quiz Homepage](Develop/images/day-scheduler.png)
+![Screenshot of Coding Quiz Homepage](assets/images/weather-dashboard.png)
 
 ---
