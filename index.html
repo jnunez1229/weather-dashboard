@@ -25,79 +25,34 @@
                 <h4>Search for a City:</h4>
 
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control">
+                    <input id="city-input" type="text" class="form-control">
                     <button class="btn btn-primary" type="button" id="search-button"><i class="fas fa-search-location"></i></button>
                 </div>
 
-                <div class="card>
-                    <ul class="list-group list-group-flush">
-                          <li class="list-group-item"> <a href="#">Cras justo odio</a> </li>
-                          <li class="list-group-item"> <a href="#">Cras justo odio</a> </li>
-                          <li class="list-group-item"> <a href="#">Cras justo odio</a> </li>
-                        </ul>
-                      </div>
+                <div class="card">
+                    <ul id="search-card"class="list-group list-group-flush">
+
+                    </ul>
+                </div>
                 
             </div>
-
+<img src="" alt="">
             
             <div class="col-md-8">
 
                 <!-- Current Weather -->
                 <div class="row border d-block ">
-                    <h2 class="p-4" id="current-city">Atlanta(8/15/2019) <span id="current-image"></span></h2>
-                    <h5 class="pl-4 pb-4">Temperature:<span id="current-humid"></span></h5>
-                    <h5 class="pl-4 pb-4">Humidity:<span id="current-humid"></span></h5>
+                    <h2 class="p-4" id="current-city"></h2>
+                    <h5 class="pl-4 pb-4">Temperature: <span id="current-temp"></span></h5>
+                    <h5 class="pl-4 pb-4">Humidity: <span id="current-humidity"></span></h5>
                     <h5 class="pl-4 pb-4">Wind Speed: <span id="current-wind"></span></h5>
-                    <h5 class="pl-4 pb-4">UV Index: <span id="current-uv"></span></h5>
+                    <h5 class="pl-4 pb-4">UV Index: <span id="current-uvi"></span></h5>
                 </div>
 
                 <!-- 5-Day Forecast -->
                 <h3>5-Day Forecast:</h3>
-                <div class="row d-flex justify-content-around">
-                    <div class="col-md-3 col-lg-2 card bg-primary mb-3 mr-2">
-                        <div class="card-body text-light p-0 pb-3">
-                            <h5 class="card-title h5">8/16/2019</h5>
-                            <p class="card-text">IMG</p>
-                            <p class="card-text">Temp: 86.84 F</p>
-                            <p class="card-text">Humidity: 43%</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-lg-2 card bg-primary mb-3 mr-2">
-                        <div class="card-body text-light p-0 pb-3">
-                            <h5 class="card-title h5">8/16/2019</h5>
-                            <p class="card-text">IMG</p>
-                            <p class="card-text">Temp: 86.84 F</p>
-                            <p class="card-text">Humidity: 43%</p>
-                        </div>
-                    </div>
-                       
-                    <div class="col-md-3 col-lg-2 card bg-primary mb-3 mr-2">
-                        <div class="card-body text-light p-0 pb-3">
-                            <h5 class="card-title h5">8/16/2019</h5>
-                            <p class="card-text">IMG</p>
-                            <p class="card-text">Temp: 86.84 F</p>
-                            <p class="card-text">Humidity: 43%</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-lg-2 card bg-primary mb-3 mr-2">
-                        <div class="card-body text-light p-0 pb-3">
-                            <h5 class="card-title h5">8/16/2019</h5>
-                            <p class="card-text">IMG</p>
-                            <p class="card-text">Temp: 86.84 F</p>
-                            <p class="card-text">Humidity: 43%</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-lg-2 card bg-primary mb-3 mr-2">
-                        <div class="card-body text-light p-0 pb-3">
-                            <h5 class="card-title h5">8/16/2019</h5>
-                            <p class="card-text">IMG</p>
-                            <p class="card-text">Temp: 86.84 F</p>
-                            <p class="card-text">Humidity: 43%</p>
-                        </div>
-                    </div>
+                <div id="forecast" class="row d-flex justify-content-around">
+                    
                 </div>
             </div>
         </div>
